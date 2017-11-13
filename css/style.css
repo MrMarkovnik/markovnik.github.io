@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+html{
+  font-size: 10px;
+}
+.wrapper{
+  display:table-cell;
+  vertical-align:middle;
+}
+.main-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+.main-header{
+  position: relative;
+}
+.main{
+  position: relative;
+  display:table;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background: #000 url(../img/main_bg.jpg) center center no-repeat;
+}
+.main h1{
+  margin: 0;
+  font-weight: 100;
+  font-size: 4.8rem;
+}
+.main p{
+  font-size:3rem;
+}
+.main-line{
+  width: 21.3rem;
+  height: 1px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.main-down{
+  position: absolute;
+  bottom: 2rem;
+  display: inline-block;
+  font-size: 2rem;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-left: -2.5rem;
+  color: white;
+  z-index: 4;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  line-height: 50px;
+  transition: 0.2s;
+}
+.main-down:hover{
+  color: white;
+  border-color: white;
+  transition: 0.5s;
+}
+.main-down:active{
+  color: white;
+}
+/*Портфолио*/
+.portfolio{
+  padding: 10rem 0;
+  text-align: center;
+}
+.section-header{
+  font-weight: 900;
+  font-size: 3.6rem;
+  margin-bottom: 5rem;
+}
+.portfolio img{
+  width: 100%;
+  max-width: 36rem;
+  box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
+}
+.portfolio p{
+  font-family: 'Merriweather', serif;
+  font-size: 1.7rem;
+}
+a{
+  color: black;
+}
+.portfolio a:hover{
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+  border: 0.1rem solid black;
+  text-decoration: none;
+}
+.portfolio a:active{
+  color: black;
+  text-decoration: none;
+}
+.footer{
+  text-align: center;
+  background: #555555;
+}
+.footer strong{
+  font-size: 2rem;
+  color: white;
+}
+.footer .row{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.footer i{
+  transition: 0.5s;
+  font-size: 2.8rem;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  color: white;
+}
+.footer i:hover{
+  transition: 0.5s;
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+.footer p{
+  font-size: 1.5rem;
+  color: white;
+}
+#deaded{
+  transition: 0.5s;
+  display: block;
+  max-width: 30rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.7rem;
+  border: 0.1rem solid white;
+  border-radius: 10rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+#deaded:hover{
+  transition: 0.5s;
+  color: black;
+  border-color: black;
+  background: white;
+}
